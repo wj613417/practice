@@ -1,0 +1,40 @@
+body {
+  font-family: SF Pro KR,SF Pro Text,SF Pro Icons,Apple Gothic,HY Gulim,MalgunGothic,HY Dotum,Lexi Gulim,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.toptop {
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 48px;
+  overflow: hidden;
+  background-color: black;
+  margin: 0;
+ 
+}
+
+.toptop ul {
+  list-style: none;
+  text-align: center;
+}
+
+.toptop ul li {
+   display: inline-block; 
+}
+
+.toptop ul li a, nav ul li a:visited {
+  padding: 21px;
+  font-weight: 600;
+  color: #666666;
+}
+
+.toptop li a:hover {
+  color: white;
+  transition: 0.5s;
+}
