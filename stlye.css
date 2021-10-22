@@ -7,7 +7,7 @@ a:link {
 }
 
 .toptop {
-  position: absolute;
+  position: fixed;
   z-index: 5;
   top: 0;
   left: 0;
@@ -22,6 +22,8 @@ a:link {
 .toptop ul {
   list-style: none;
   text-align: center;
+  padding-left: 0px;
+
 }
 
 .toptop ul li {
@@ -37,4 +39,38 @@ a:link {
 .toptop li a:hover {
   color: white;
   transition: 0.5s;
+}
+
+/*toptop*/
+
+.img-block {
+  position: relative;
+}
+
+.img-block img {
+  width: 100%;
+  margin 0 auto;
+}
+
+.img-text {
+  position: absolute;
+  top: 42px;
+  text-align: center;
+  width:100%;
+}
+
+.img-text .headline {
+    font-size: 144px;
+    line-height: 1;
+    font-weight: 600;
+    color: whitesmoke;
+    
+}
+
+.aa {
+  position: absolute;
+  bottom: 0;
+  right:0;
+  font-size: 13px;
+  color: whitesmoke;
 }
